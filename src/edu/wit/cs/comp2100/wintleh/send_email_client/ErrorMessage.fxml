@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.wit.cs.comp2100.wintleh.send_email_client.ErrorMessageController">
+   <children>
+      <Text fx:id="errorText" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="600.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="144.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Error Sending Email" textAlignment="CENTER">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

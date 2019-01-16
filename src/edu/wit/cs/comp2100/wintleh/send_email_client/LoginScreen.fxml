@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="364.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.wit.cs.comp2100.wintleh.send_email_client.LoginScreenController">
+   <children>
+      <TextField fx:id="emailField" layoutX="25.0" layoutY="125.0" prefHeight="31.0" prefWidth="315.0" promptText="Email: example@gmail.com" />
+      <PasswordField fx:id="passwordField" layoutX="25.0" layoutY="171.0" prefHeight="31.0" prefWidth="315.0" promptText="Password" />
+      <Button fx:id="loginButton" layoutX="154.0" layoutY="243.0" mnemonicParsing="false" onAction="#login" text="Login" />
+      <Text layoutX="146.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign In">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Rectangle fx:id="emailErrorBackground" arcHeight="5.0" arcWidth="5.0" fill="RED" height="20.0" layoutX="83.0" layoutY="214.0" opacity="0.5" stroke="BLACK" strokeType="INSIDE" visible="false" width="200.0" />
+      <Text fx:id="emailErrorText" layoutX="98.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Invalid Email or Password" textAlignment="CENTER" visible="false" />
+   </children>
+</Pane>
