@@ -45,10 +45,12 @@ public class LoginScreenController {
     	
     	
     	// Added to make testing easier, uses a junk email
+    	/*
     	if(emailField.getText().equals("admin") && passwordField.getText().equals("admin")) {
     		emailAddress = "wintlehthrowaway@gmail.com";
     		password = "BadPassword1";
     	}
+    	*/
     	
     	
     	boolean threwException = false;
